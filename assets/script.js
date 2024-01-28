@@ -12,7 +12,7 @@ const relogio = setInterval(function () {
 
 function time() {
   data = new Date();
-  horas = 19;
+  horas = data.getHours
   $minutos = data.getMinutes();
 
   if (horas < 10) horas = "0" + horas;
